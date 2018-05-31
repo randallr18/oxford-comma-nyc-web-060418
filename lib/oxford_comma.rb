@@ -4,7 +4,7 @@ def oxford_comma(array)
   last_word << (array[-1])
 end
 
-if array.length = 1
+if array.length == 1
   array
 elsif array.length < 3
   array.pop
